@@ -29,3 +29,5 @@ git clone https://github.com/vikasgaur1992/firewall.git
 +++++++++++++++++++++++++++++++++++
 Contribute ==> pull request ==> Review Approve ==> Merg
 +++++++++++++++++++++++++++++++++++
+git pull --rebase origin main
+git push --set-upstream origin main --force
