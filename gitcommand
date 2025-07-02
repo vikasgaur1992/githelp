@@ -1,0 +1,31 @@
+git —version
+git config --global user.email
+git config --global --edit
+git init             /*initialize repository
+git status           /*what all modifications done in repo
+git add Rreadme.md   /*add to staging area from untracked file
+git add .            /*move all files to staging area
+git commit -m "comment"    /*commit 
+git log              /*to check commit history
+git checkout commitid    /*roleback to old commit change
+git branch          /*show all branches
+git checkout master      /*switch from abc branch to marter branch
+git branch dev           /*creat new dev branch
+git checkout dev         /*switch branch if already exist
+git checkout -b qa       /*create and switch branch in same command
+git merg dev             /*merce changed from dev branch to current branch
+touch .gitignore         /*secret file which is not tracked by git
++++++++++++++++++++++++++++++++++
+GitHub Add ==> Commit ==> Push
+++++++++++++++++++++++++++++++++++
+- Push an existing repo from command line
+git remote -v            /*shows fetch and push origin for remote repo
+git remote add origin https://github.com/vikasgaur1992/firewall.git
+- Puch code to remote repo
+git branch -M master
+git push -u origin master
+- Clone repo
+git clone https://github.com/vikasgaur1992/firewall.git
++++++++++++++++++++++++++++++++++++
+Contribute ==> pull request ==> Review Approve ==> Merg
++++++++++++++++++++++++++++++++++++
