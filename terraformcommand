@@ -1,0 +1,5 @@
+After updating module.
+terraform providers      /*To check module version
+rm .terraform.lock.hcl
+rm -rf .terraform/modules
+terraform init -upgrade
