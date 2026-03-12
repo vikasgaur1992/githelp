@@ -7,6 +7,9 @@ git add Rreadme.md   /*add to staging area from untracked file
 git add .            /*move all files to staging area
 git commit -m "comment"    /*commit 
 git log              /*to check commit history
+git show <commit hash>
+git show --name-only <hash>    
+git reflog                /*full log info
 git checkout commitid    /*roleback to old commit change
 git branch          /*show all branches
 git checkout master      /*switch from abc branch to marter branch
@@ -31,3 +34,5 @@ Contribute ==> pull request ==> Review Approve ==> Merg
 +++++++++++++++++++++++++++++++++++
 git pull --rebase origin main
 git push --set-upstream origin main --force
++++++++++++++++++++++++++++++++
+
