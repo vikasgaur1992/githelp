@@ -1,1 +1,11 @@
 # githelp
+For .gitignore file
+# Terraform state and locks
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Private Keys and Secrets
+*.pem
+*.tfvars
