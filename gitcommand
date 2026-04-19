@@ -1,3 +1,13 @@
+Local to git push
++++++++++++++++++++++++
+git init     # Initialize the local directory as a Git repo
+touch .gitignore     # Create a .gitignore file (CRITICAL STEP)
+git add .            # Add all files (Git will ignore what we put in .gitignore)
+git commit -m "Initial commit: Airflow on Kubernetes with Terraform"            # Create your first commit
+git remote add origin https://github.com/vikasgaur1992/airflow_kubernetes.git        # Add the remote origin
+git branch -M main        # Ensure your branch is named 'main'
+git push -u origin main        # Push the code to GitHub
+++++++++++++++++++++++++++++++
 git —version
 git config --global user.email
 git config --global --edit
