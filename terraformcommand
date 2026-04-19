@@ -3,3 +3,4 @@ terraform providers      /*To check module version
 rm .terraform.lock.hcl
 rm -rf .terraform/modules
 terraform init -upgrade
+terraform untaint resounce_name from terraform plan
